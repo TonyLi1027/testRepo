@@ -67,6 +67,7 @@ public class BankAccount {
 
     public void show_info(){
         System.out.println("Name:"+this.customer_name);
+        System.out.println("Balance is "+this.balance);
         System.out.println("Account Number is "+this.account_num);
         System.out.println("Phone Number is "+this.phone_num);
         System.out.println("Email is "+this.email);
