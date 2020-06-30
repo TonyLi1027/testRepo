@@ -13,6 +13,7 @@ public class BankAccount {
         account.show_info();
         account2.show_info();
         account3.show_info();
+        account.exit();
 
     }
 
@@ -71,5 +72,9 @@ public class BankAccount {
         System.out.println("Account Number is "+this.account_num);
         System.out.println("Phone Number is "+this.phone_num);
         System.out.println("Email is "+this.email);
+    }
+
+    public void exit(){
+        System.exit(0);
     }
 }
