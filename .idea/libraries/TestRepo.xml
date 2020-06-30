@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TestRepo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TestRepo/out/artifacts/TestRepo_jar/TestRepo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
