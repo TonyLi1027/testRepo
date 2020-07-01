@@ -28,7 +28,7 @@ public class ClassName {
 
 
         //Generate random value
-        int rand = (int) (Math.random()*10);
+        int rand = (int) (Math.random()*thisClass.length);
         System.out.println(thisClass[rand]);
         JOptionPane.showMessageDialog(null, thisClass[rand]);
 
